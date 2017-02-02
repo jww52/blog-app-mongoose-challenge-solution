@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: e+Av/7MPlryEf804rMfNUS2VKlIiPu6G6GiyA51YErehQI9nTvInCC7I0tRFnkyc9zNhmfX7j64oGXhzQYMQlpa6k+b7CrfhrHJafi5Z4kyvAKm6NHAMg/E2atWUtHzHT0uDPLCw8ZgaPKcht9YPZRQiERF1tjtzs/fxt2wua2rnuAB0yFvT1BHq/i3RnigedsQ5s4B7yvdyvf+qTJ3i/k4zvMW3/ViOt6/uY9cBtOCj1rQikB5GwAVFWwwslc9dU+3iDo8cbKorDI3h2OJgLGgJl9hbEAHKRVOIgme+t4Ze09+gAG06JsrDONa0/L02XNdoms8dS0dmOs/QkewxnVUDFJnoXFS7QQ0kzImhodEkXbMcNL9UiEp4Dlz19WEOMRl+PHcIthATeSC8po3JYY/9FVDmeYAKPY0jPq9y92B5htQ2WpK8EovNPopb+qRLdSXxvZ6oL3n4k0E6fhyFo+chygNN38ZlFvOn3/1Lu2rIMw4i6LGgev4FB1oPi8NVkknL4Fz1mBvUjqsAxahBc3G3PfL2jXc5MZ/5UAv+h5H32Bqe4ACIXlPpVeYrPTXhD43rGAQBKNjJVdOi/8c6disPvHCESb0AhNMuNTGOYRADjF/fNtFwBbPZP4+4FRWAKpDvN+O41QNhjZ12CMbfqJ33pc5stXCA04xMEqHrv9Q=
+  app: polar-headland-12579
+  on:
+    repo: jww52/blog-app-mongoose-challenge-solution
